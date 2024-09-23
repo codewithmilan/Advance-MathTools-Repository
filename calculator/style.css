@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contanier {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    height: 360px;
+    width: 450px;
+    border: 0.3px solid black;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+
+h3 {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 40px;
+    border-bottom: 1px solid;
+    text-align: left;
+    align-items: center;
+    padding: 8px 10px;
+    background-color: blueviolet;
+}
+
+p {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+.box2 {
+    height: 60%;
+    width: 100%;
+}
+
+.box2 button {
+    height: 40px;
+    width: 180px;
+    padding: 0;
+    margin: 15px;
+    color: aliceblue;
+    background-color: rgb(27, 147, 232);
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.box2 button:hover {
+    background-color: rgb(68, 29, 104);
+    transition: 0.3s ease-in;
+}
+
+/* CUBE PART GOES HERE */
+
+.contanier-2 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box11 {
+    height: 480px;
+    width: 450px;
+    border: 0.3px solid black;
+    flex-wrap: wrap;
+}
+
+.box3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 210px;
+    width: 100%;
+}
+
+.box3 label {
+    padding: 5px 20px;
+    font-size: 17px;
+    color: blue;
+}
+
+.box3 input {
+    height: 40px;
+    width: 90%;
+    margin-bottom: 5px;
+    outline: none;
+    font-size: 18px;
+    color: black;
+    margin-left: 20px;
+    padding-left: 8px;
+}
+
+input::placeholder {
+    font-size: 15px;
+}
+
+.box4 button {
+    height: 40px;
+    width: 180px;
+    margin: 15px;
+    color: aliceblue;
+    background-color: rgb(27, 112, 232);
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.box4 button:hover {
+    background-color: rgb(43, 67, 224);
+}
+
+.box4 button:nth-child(3) {
+    background-color: red;
+}
+
+.box4>a {
+    height: 40px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 70px;
+    border-radius: 3px;
+    margin-left: 5px;
+    background-color: green;
+}
+
+/******************* CYLINDER PART GOES HEERE******************/
+.box12 {
+    height: 530px;
+    width: 450px;
+    border: 0.3px solid black;
+    flex-wrap: wrap;
+}
+
+.box32 {
+    margin-top: -5px;
+    height: 280px;
+    width: 100%;
+}
+
+.box41 button {
+    height: 40px;
+    width: 180px;
+    margin: 15px;
+    color: aliceblue;
+    background-color: rgb(27, 112, 232);
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
